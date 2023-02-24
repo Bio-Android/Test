@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.vistas;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,7 +23,6 @@ public class ShowUserData extends AppCompatActivity {
 
 
         Users datausertoshow = (Users) getIntent().getSerializableExtra("data");
-
 
          binding.editTextnombre.setText(datausertoshow.getName());
          binding.editTextnombredeusuario.setText(datausertoshow.getUsername());
